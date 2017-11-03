@@ -3,6 +3,24 @@
 A：依次检查主题文件夹名称是否为`handsome`——是否已经安装并且启用主题必要的插件
 
 
+## 使用EditorMD前台文章首次不加载，刷新一次才能加载
+
+主题pjax与EditorMD的前台解析js有冲突，在该插件的设置界面，将
+```
+接管前台Markdown解析并启用ToC、TeX科学公式、流程图 Flowchart、时序图 Sequence Diagram 等扩展
+```
+选择否即可。
+
+
+## typecho1.1版本编辑器无法解析HTML代码
+
+typecho 1.0原生markdown解析器非常弱，无法解析表格。
+typecho 1.1原生markdown解析器非常坑，无法直接解析HTML代码。你可以一劳永逸使用该插件：
+[kokororin / typecho-plugin-Parsedown](https://github.com/kokororin/typecho-plugin-Parsedown)
+
+启用该插件后，无需任何设置，自动替换前台文章解析，没有任何问题了。
+
+
 ## 点击首页头像，显示404页面
 
 A：需要新建“时光机”独立页面，具体方法见[独立页面](/page)
@@ -24,17 +42,14 @@ A：后台 `设置——评论——在评论中使用Markdown语法(选中)`
 
 
 
-
-## 启用主题后，无法评论
-
-A：别着急，放轻松。点一下这个链接：[#评论系统](/comment)
-
-
-
 ## links插件无法启用，显示500错误
 
-A：links插件不是由我维护的，开发作者已经很久没有更新，很可能不能适用你的服务器上面（很可能没有正确的配置服务器）。如果有错误，请在typecho根目录下的`config.inc.php`里加入
-```php
-define('__TYPECHO_DEBUG__', true);
+A：一般是由于你的`usr/plugin`没有足够的权限导致的。
+
+如果是Linux服务器尝试，在typecho的usr目录下输入此命令：
+
+```bash
+sudo chmod -R 777 plugin
 ```
-此举会输出详细的错误信息。把具体的错误信息复制，在评论区域或者发邮件给我，这样方便我更快的处理。
+
+如果仍有问题，请联系我
