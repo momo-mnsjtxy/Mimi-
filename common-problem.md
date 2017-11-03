@@ -15,6 +15,7 @@ A：依次检查主题文件夹名称是否为`handsome`——是否已经安装
 ## typecho1.1版本编辑器无法解析HTML代码
 
 typecho 1.0原生markdown解析器非常弱，无法解析表格。
+
 typecho 1.1原生markdown解析器非常坑，无法直接解析HTML代码。你可以一劳永逸使用该插件：
 [kokororin / typecho-plugin-Parsedown](https://github.com/kokororin/typecho-plugin-Parsedown)
 
