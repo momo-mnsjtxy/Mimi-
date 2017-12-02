@@ -1,4 +1,4 @@
-### 博文头图
+### 1. 博文头图
 
 ![headerpic](https://ihewrocdn.b0.upaiyun.com/img/headerpic.png)
 
@@ -42,33 +42,29 @@
 每篇文章的编辑页面底部的自定义字段中，字段名为`thumb`,当值为`no`的时候，会不显示当前文章的头图（首页头图和文章头图）（仅对当前文章有效）,这里的设置同样会无视上面的设置。
 
 
-### 文章目录树
+### 2. 文章目录树
 
 文章中的目录树已经内置代码，**仅当文章有h2 h3 h4标题** 才会生成目录树，并且手机端不显示目录树。
 
 **注意**：如果文章中没有`h2`标题，只有`h3 h4`标题是不会生成目录树的。
 
 
-### 短代码高亮文本
+### 3. 短代码高亮文本
 
-** \* 2.1.0及以上版本新增功能**
-
-```html
-<div class="share">这是灰色的短代码框，常用来引用资料什么的，调用代码为 <strong>&lt;div class="share"&gt;输入文字&lt;/div&gt;</strong><br><br></div>
-
-<div class="yellow">这是黄色的短代码框，常用来做提示，引起读者注意。调用代码为 <strong>&lt;div class="yellow"&gt;输入文字&lt;/div&gt;</strong><br><br></div>
-
-<div class="red">这是红色的短代码框，用于严重警告什么的。调用代码为 <strong>&lt;div class="red"&gt;输入文字&lt;/div&gt;</strong><br><br></div>
-
-<div class="lblue">这是浅蓝色的短代码框，用于显示一些信息。调用代码为 <strong>&lt;div class="lblue"&gt;输入文字&lt;/div&gt;</strong><br><br></div>
-
-<div class="green">这是绿色的短代码框，显示一些推荐信息。调用代码为 <strong>&lt;div class="green"&gt;输入文字&lt;/div&gt;</strong><br><br></div>
+```markdown
+[scode type="share"]这是灰色的短代码框，常用来引用资料什么的[/scode]
+[scode type="yellow"]这是黄色的短代码框，常用来做提示，引起读者注意。[/scode]
+[scode type="red"]这是红色的短代码框，用于严重警告什么的。[/scode]
+[scode type="lblue"]这是浅蓝色的短代码框，用于显示一些信息。[/scode]
+[scode type="green"]这是绿色的短代码框，显示一些推荐信息。[/scode]
 ```
+
 
 <img src="https://ihewrocdn.b0.upaiyun.com/img/shortcode.png" />
 
 
-### 博客友好时间格式化
+
+### 4. 博客时间友好格式化
 
 > **使用效果**
 
@@ -87,9 +83,10 @@
 在这里同样可以修改博客的时间格式为你需要的时间格式，值为标准的php格式。
 
 
-### 灯箱插件
+### 5. 灯箱插件
 
 文章中如果某个图片不想显示灯箱效果，可以给图片标签中加入`nogallery`属性：
+
 ```html
 <img nogallery src="">
 ```
@@ -100,10 +97,146 @@
 <img max src="">
 ```
 
-### 文章内部分隐藏回复可见
+### 6. 文章内部分隐藏回复可见
 
 在文章使用使用
 ```html
 [hide][/hide]
 ```
 标签包裹住你想要隐藏的内容，游客必须先回复后才能查看隐藏内容。
+
+### 7. 文章中插入按钮
+
+handsome支持以下类型的按钮：
+*  矩形文字按钮
+*  椭圆形文字按钮
+*  矩形图标文字按钮
+
+```html
+
+[button]矩形按钮文字[/button]
+
+[button color="succees"]矩形按钮文字[/button]
+
+[button type="round" color="succees"]椭圆形按钮文字[/button]
+
+[button color="succees" icon="glyphicon glyphicon-eur"]图标按钮文字[/button]
+```
+
+* `type`：选填，不填默认为矩形按钮。可选值：
+    * `round`：椭圆形按钮   
+
+* `color`： 选填，不填默认为success（绿色），可选值：
+    * `light`：白色
+    * `info`：蓝色
+    * `dark`：深色
+    * `success`：绿色
+    *  `black`：黑色
+    *  `warning`：黄色
+    *  `primary`：紫色
+    *  `danger`：红色
+* `icon`：选填，不填默认为文字按钮，可用按钮见[图标列表](./icons)
+
+### 8. 文章内插入音乐
+
+**点击编辑器的插入音乐图标**可以在文章内可以插入音乐歌曲地址，支持云解析和本地MP3地址两种方式：
+
+**时光机的音乐插入按钮也是同样的操作**
+
+> **云解析歌曲**：暂时支持解析单曲，不支持歌单，支持以下媒体：
+
+* 网易云音乐：http://music.163.com/#/song?id=40147556
+* QQ音乐：https://y.qq.com/n/yqq/song/000jDQWP4JiB3y.html
+* 虾米音乐：http://www.xiami.com/song/bf08DNT3035f
+* 酷狗音乐：http://www.kugou.com/song/#hash=09E8DE70A24C97B92A29F6A19F3528A2
+* 百度音乐：http://music.baidu.com/song/268275324
+
+> 本地mp3地址播放：
+
+* 示例：直接在输入框中输入`.mp3`结尾的地址，并填写`歌曲名`和`歌手`的名称。
+
+
+```html
+[hplayer title="歌曲名" author="歌手" url="http://xxx.com/xxx.mp3" /]
+```
+
+### 9. 文章内插入视频
+
+
+**点击编辑器的插入音乐图标**可以插入视频，只支持本地的视频地址的播放
+
+**时光机的视频插入按钮也是同样的操作**
+
+直接在输入框中输入视频的地址即可，一般以`.mp4`结尾的资源地址。
+
+示例：
+
+```html
+<video src="http://xxx.com/xxx.mp4"></video>
+```
+
+### 10. 文章中使用mathJax公式
+
+* 需要在`后台外观设置——主题增强功能`中启用`公式（MathJax）`选项。
+
+* 语法格式：
+
+```markdown
+//块级公式：
+$$ 公式内容 $$
+$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+// 行内公式：
+$ 行内公式内容 $ 
+\\( 行内公式内容 \\)
+
+$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+
+\\( x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}  \\)
+```
+
+
+### 11. 将本地静态资源上传到你的cdn上
+
+* 需要在`后台外观设置——将本地静态资源上传到你的cdn上`中配置：
+
+* 使用该项设置前，你必须有自己搭建的cdn服务器（不是指当前服务器）
+
+* 主题目录下的/assets/目录下有 css、js、fonts、img四个静态资源文件夹。
+
+* 你需要把asset目录上传到你的cdn服务器上，比如CDN服务器的 handsome目录里，地址即为 `https://cdn.ihewro.com/handsome/assets/`
+
+* 在当前框中就填入该地址，主题就会引用你搭建的cdn上面的资源，而不再引用当前服务器上的资源
+
+
+### 12. 图片附件加速
+
+![qiniu](https://ihewrocdn.b0.upaiyun.com/img/qiniui.png)
+
+在该项配置填写的是你的博客附件的镜像空间地址(地址以`/`结尾)。
+
+在一般情况下，七牛镜像空间的访问文件速度要比你服务器访问文件速度要快，所以你可以建立七牛镜像空间（或者其他的镜像控件）加速你博客中的**附件访问速度**。
+
+注意：你的七牛空间必须在`镜像存储的设置项`中填写你的**博客的附件存放的地址**(例如：https://www.ihewro.com/usr/uploads/ )，这样才能达到加速的效果。
+
+### 13. DNS预解析
+
+DNS prefetching通过指定具体的URL来告知客户端未来会用到相关的资源，告诉客户端可以尽早的解析DNS。
+
+更多详细信息，[请戳这个](https://www.linpx.com/p/small-practice-of-prefetching-dns.html)
+
+
+### 14. 侧边栏的标签云
+
+需要在新建文章的页面右侧填写标签，才会在首页侧边栏输出的。(回车添加当前标签)
+
+![tagcloud](https://ihewrocdn.b0.upaiyun.com/img/tag.png)
+
+### 15. 自定义摘要字数
+
+默认显示文章的前200字作为摘要，你还可以使用`摘要分隔符`进行自主截断内容输出
+ 
+```markdown
+<!--more-->
+```
+
