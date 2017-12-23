@@ -2,13 +2,13 @@
 
 ## 可用图标
 
-**主题内置的iconfont图标：** ![iconfont](https://ihewrocdn.b0.upaiyun.com/img/iconfont.png)
-
-**bootcss自带的Glyphicons字体图标：** 详细见[Glyphicons 字体图标](http://v3.bootcss.com/components/#glyphicons)
+**主题内置的iconfont图标：** ![iconfont](https://ws2.sinaimg.cn/large/006tNbRwly1fmqk5welm0j31h20h0dg9.jpg)
 
 **主题内置的font-awesome图标：** ![](https://ws4.sinaimg.cn/large/006tNc79ly1fkiqvxfo2mj31kw0gv105.jpg)
 
+**bootcss自带的Glyphicons字体图标：** 详细见[Glyphicons 字体图标](http://v3.bootcss.com/components/#glyphicons)
 
+>? 第一项和第二项的图标很少，如果找不到相应图标，建议在第三项的图标库中寻找 
 
 ## 使用方法
 
