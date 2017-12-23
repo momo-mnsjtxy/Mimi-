@@ -8,7 +8,7 @@
 
 **bootcss自带的Glyphicons字体图标：** 详细见[Glyphicons 字体图标](http://v3.bootcss.com/components/#glyphicons)
 
->? 第一项和第二项的图标很少，如果找不到相应图标，建议在第三项的图标库中寻找 
+?> 第一项和第二项的图标很少，如果找不到相应图标，建议在第三项的图标库中寻找 
 
 ## 使用方法
 
