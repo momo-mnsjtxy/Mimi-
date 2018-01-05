@@ -1,4 +1,4 @@
-# Handsome Theme <small>4.1 Pro</small>
+# Handsome Theme <small>4.2 Pro</small>
 
 都崭新，都暗淡，都独立，都有明天。
 

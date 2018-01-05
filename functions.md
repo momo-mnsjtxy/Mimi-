@@ -240,11 +240,19 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 
 ### 图片附件加速
 
-![qiniu](https://ihewrocdn.b0.upaiyun.com/img/qiniui.png)
+![](https://ws4.sinaimg.cn/large/006tNc79ly1fn5xi52hhlj31kw0dp3yt.jpg)
 
 在该项配置填写的是你的博客附件的镜像空间地址(地址以`/`结尾)。
 
 在一般情况下，七牛镜像空间的访问文件速度要比你服务器访问文件速度要快，所以你可以建立七牛镜像空间（或者其他的镜像控件）加速你博客中的**附件访问速度**。
+
+以下以七牛空间举例（又拍云似乎有类似的功能，但是问了客服说的不是很清楚，又拍云用户可以自行研究下）：
+
+```
+选择对象存储——镜像存储——填写镜像空间地址
+```
+![](https://ws2.sinaimg.cn/large/006tNc79ly1fn5zifatmej31kw12y40s.jpg)
+
 
 注意：你的七牛空间必须在`镜像存储的设置项`中填写你的**博客的附件存放的地址**(例如：https://www.ihewro.com/usr/uploads/ )，这样才能达到加速的效果。
 
