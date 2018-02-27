@@ -233,7 +233,7 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 ```
 
 
-<img src="https://ihewrocdn.b0.upaiyun.com/img/shortcode.png" />
+![](https://ws2.sinaimg.cn/large/006tNc79ly1foutefje7wj30os0g0dgc.jpg)
 
 
 
