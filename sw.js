@@ -8,10 +8,7 @@
 
 const RUNTIME = 'docsify'
 const HOSTNAME_WHITELIST = [
-  self.location.hostname,
-  'fonts.gstatic.com',
-  'fonts.googleapis.com',
-  'unpkg.com'
+  self.location.hostname
 ]
 
 // The Util Function to hack URLs of intercepted requests
