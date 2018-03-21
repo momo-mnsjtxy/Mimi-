@@ -57,8 +57,8 @@ sudo chmod -R 777 plugin
 
 * PHP必须满足 PHP>=5.4
 * 某些国外服务器无法云解析，请使用手动添加歌曲功能
+* 服务器需要安装curl 扩展，请勿禁用`curl_exec`函数，并且curl扩展需要支持https
 * 网易云会时常封禁cookie，导致解析失败，请打开主题目录下面的`libs/Get.php` 根据注释要求修改`$netease_cookie`变量。（一般有问题的话，我会在群内通知的）或者换用QQ音乐或者其他平台
-* 服务器需要安装curl 扩展，并且curl扩展需要指出https
 
 如果仍有问题，请联系我。
 
