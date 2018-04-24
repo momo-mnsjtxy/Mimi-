@@ -113,7 +113,7 @@ handsome支持以下类型的按钮：
 
 [button color="succees"]矩形按钮文字[/button]
 
-[button type="round" color="succees"]椭圆形按钮文字[/button]
+[button type="round" color="success"]椭圆形按钮文字[/button]
 
 [button color="succees" icon="glyphicon glyphicon-eur"]图标按钮文字[/button]
 ```
