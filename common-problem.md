@@ -92,3 +92,25 @@ sudo chmod -R 777 plugin
 选择否即可。
 
 
+#### 启用插件总是显示500错误
+
+有些插件必须修改插件的文件夹为指定的名称才能正常使用，一般插件的说明都会有提到修改插件的文件夹名称，请留意。
+
+#### Aplayer 无法正常使用
+
+主题内置支持云解析的文章播放器，详见[文章内插入音乐](https://handsome.ihewro.com/#/functions?id=%E6%96%87%E7%AB%A0%E5%86%85%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90)
+
+如果你仍然喜欢Aplayer插件，你可以使用`MoePlayer` 作者开发的[APlayer-Typecho](https://github.com/MoePlayer/APlayer-Typecho)版本的插件，
+
+然后在`主题的外观设置`——`pjax`——`回调函数`中填写即可：
+
+```JavaScript
+if (typeof aplayers !== 'undefined'){
+    for (var i = 0; i < aplayers.length; i++) {
+        try {aplayers[i].destroy()} catch(e){}
+    }
+}
+loadMeting();
+```
+
+

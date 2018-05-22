@@ -1,6 +1,6 @@
-# Handsome Theme <small>4.2 Pro</small>
+# Handsome Theme <small>4.3 Pro</small>
 
-艳惊四方，性能飞跃
+艳惊四方，精雕细琢
 
 
 [联系作者](https://www.ihewro.com/)

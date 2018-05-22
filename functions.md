@@ -97,8 +97,24 @@ DNS prefetching通过指定具体的URL来告知客户端未来会用到相关�
 
 #### 方法一：傻瓜式扩充fontawesome图标
 
-#### 方法二：自定义添加iconfont图标列表
+直接引入全套的fontawesome图标：
 
+在主题外观设置——开发者设置——自定义输出head 头部的HTML代码，填入：
+
+```html
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+```
+
+上面的fontawesome 的css文件来自bootcdn.css 公共cdn提供，你可以替换成自己的文件。
+
+#### 方法二：自定义添加iconfont图标列表
+主题内置fontello图标来自网站`http://fontello.com/`
+
+你可以在该网站中导入主题目录下的`assets/fonts/fontello`的`config.json`，然后重新生成字体文件。
+
+覆盖到`assets/fonts/fontello`下，并且需要修改`assets/css/handsome.css`中形如`.fontello-*:before`，替换为下载的新的标签。
+
+（难度较大，不推荐……）
  
 
 ### 文章中插入按钮
@@ -256,37 +272,4 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 **在这里同样可以修改博客的时间格式为你需要的时间格式，值为标准的php格式。**
 
 如标准时间格式：`Y-n-j H:i:s` 
-
-
-### 图片附件加速
-
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fn5xi52hhlj31kw0dp3yt.jpg)
-
-在该项配置填写的是你的博客附件的镜像空间地址(地址以`/`结尾)。
-
-在一般情况下，七牛镜像空间的访问文件速度要比你服务器访问文件速度要快，所以你可以建立七牛镜像空间（或者其他的镜像控件）加速你博客中的**附件访问速度**。
-
-以下以七牛空间举例（又拍云似乎有类似的功能，但是问了客服说的不是很清楚，又拍云用户可以自行研究下）：
-
-```
-选择对象存储——镜像存储——填写镜像空间地址
-```
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fn5zifatmej31kw12y40s.jpg)
-
-
-注意：你的七牛空间必须在`镜像存储的设置项`中填写你的**博客的附件存放的地址**(例如：https://www.ihewro.com/usr/uploads/ )，这样才能达到加速的效果。
-
-### 将本地静态资源上传到你的cdn上
-
-* 需要在`后台外观设置——将本地静态资源上传到你的cdn上`中配置：
-
-* 使用该项设置前，你必须有自己搭建的cdn服务器（不是指当前服务器）
-
-* 主题目录下的/assets/目录下有 css、js、fonts、img四个静态资源文件夹。
-
-* 你需要把asset目录上传到你的cdn服务器上，比如CDN服务器的 handsome目录里，地址即为 `https://cdn.ihewro.com/handsome/assets/`
-
-* 在当前框中就填入该地址，主题就会引用你搭建的cdn上面的资源，而不再引用当前服务器上的资源
-
-
 

@@ -1,14 +1,16 @@
 - 开始使用
   - [快速开始](/start)
   - [友链设置](/plugin)
-  - [常见问题](/common-problem)
+  - <li ><a style="color:red" href="#/common-problem">常见问题</a></li>
 
 - 进阶设定
+  - [相册](/album)
   - [独立页面](/page)
   - [评论系统](/comment)
-  - [增强功能](/functions)
+  - <li ><a style="color:red" href="#/functions">增强功能</a></li>
   - [评论表情](/emotion)
   - [图标列表](/icons)
+  - [速度优化](/speed)
   - [多语言设置](/i18n)
   - [自定义栏目](/customize)
   - [主题增强包](/enhancedPackage)
