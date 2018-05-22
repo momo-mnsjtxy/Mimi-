@@ -26,5 +26,5 @@
 
     * 主题代码会自动解析代码，并显示为相片格式，编辑器内多余的文字将不会显示
 
-*[相关问题：编辑器无法解析HTML代码](http://localhost:3000/#/common-problem?id=typecho11%E7%89%88%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90html%E4%BB%A3%E7%A0%81)*
+*[相关问题：编辑器无法解析HTML代码](https://handsome.ihewro.com/#/common-problem?id=typecho11%E7%89%88%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90html%E4%BB%A3%E7%A0%81)*
 
