@@ -251,7 +251,18 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 
 ![](https://ws2.sinaimg.cn/large/006tNc79ly1foutefje7wj30os0g0dgc.jpg)
 
+### 文章中插入收缩框
 
+示例代码：
+```
+[collapse title="标题" status="false"]一些文字内容[/collapse]
+
+[collapse title="标题"]一些文字内容[/collapse]
+```
+
+其中`status`为`false` 表示默认不显示文字内容，为`true`表示默认显示内容。
+
+不写`status` 属性，默认是展开内容的。
 
 ### 博客时间友好格式化
 
