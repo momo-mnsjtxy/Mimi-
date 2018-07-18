@@ -13,7 +13,7 @@
   - [速度优化](/speed)
   - [多语言设置](/i18n)
   - [自定义栏目](/customize)
-  - [主题增强包](/enhancedPackage)
+  - [~~主题增强包~~](/enhancedPackage)
   - [个性化修改](/customEdit)
   - [typecho相关](/typecho)
 

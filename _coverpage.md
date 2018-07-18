@@ -1,6 +1,7 @@
-# Handsome Theme <small>4.3 Pro</small>
+# Handsome Theme <small>4.4 Pro</small>
 
-艳惊四方，精雕细琢
+人类创造内容，我们负责渲染
+
 
 
 [联系作者](https://www.ihewro.com/)
