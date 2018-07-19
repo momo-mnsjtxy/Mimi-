@@ -5,7 +5,7 @@
 
 * [本博客基于Handsome主题的一些小修改教程](https://www.moerats.com/archives/628/)
 
-* [这篇文章主要是typecho下的彩色标签云实现方式]https://ixiyu.me/archives/typecho-colorful-tag.html)
+* [这篇文章主要是typecho下的彩色标签云实现方式](https://ixiyu.me/archives/typecho-colorful-tag.html)
 
 * [一个追番列表独立页模板](https://imalan.cn/archives/88/)
 
