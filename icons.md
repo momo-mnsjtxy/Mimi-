@@ -2,11 +2,16 @@
 
 ## 可用图标
 
-!> handsome v4.3.1 由原来的`fa fa-` 修改为`fontello fontello-`，是为了大家更方便的引用其他图标。[引入更多图标](https://handsome.ihewro.com/#/functions?id=%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E6%A0%87)
+!> handsome v4.3.1 由原来的`fa fa-` 修改为`fontello fontello-`，是为了避免与fontawesome库冲突，你可以自行引入该图标库，以便使用更多图标，但是会带来一定的加载体积。[引入更多图标](https://handsome.ihewro.com/#/functions?id=%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E6%A0%87)
 
-**1. 主题内置的iconfont图标：** ![iconfont](https://ws2.sinaimg.cn/large/006tNbRwly1fmqk5welm0j31h20h0dg9.jpg)
+**1. 主题内置的iconfont图标：**
 
-**2. 主题内置的fontello图标：** ![](https://ws2.sinaimg.cn/large/006tNc79ly1fkiqvxfo2mj31kw0gv105.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79ly1ftr34y793vj31gc0vc75i.jpg)
+
+
+**2. 主题内置的fontello图标：** 
+
+![](https://ws2.sinaimg.cn/large/006tNc79ly1ftr336pqdnj31kw0jlaca.jpg)
 
 **3. bootcss自带的Glyphicons字体图标：** 详细见[Glyphicons 字体图标](http://v3.bootcss.com/components/#glyphicons)
 
