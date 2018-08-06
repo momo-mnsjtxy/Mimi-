@@ -15,13 +15,10 @@
 
 
 <p class="tip">
-<ul>
-<li><strong>一定要填写<code>链接分类</code>！！！否则前台不会输出任何信。</strong></li>
-<li><strong>一定要填写<code>链接分类</code>！！！否则前台不会输出任何信。</strong></li>
-<li><strong>一定要填写<code>链接分类</code>！！！否则前台不会输出任何信。</strong></li>
-</ul>
-
-重要的事情说三遍！！！因为已经回答无数次[为什么添加了友链前台不显示的问题了？]。
+<strong>一定要填写<code>链接分类</code>！！！否则前台不会输出任何信息。</strong></li></br>
+<strong>一定要填写<code>链接分类</code>！！！否则前台不会输出任何信息。</strong></li></br>
+<strong>一定要填写<code>链接分类</code>！！！否则前台不会输出任何信息。</strong></li></br>
+重要的事情说三遍！！！因为已经回答无数次【为什么添加了友链前台不显示的问题了】。
 </p>
 
 
