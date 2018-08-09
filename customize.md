@@ -29,12 +29,16 @@
 * `target`（可选）: 代表定在何处打开链接文档，如`_blank`:浏览器总在一个新打开、未命名的窗口中载入目标文档。`_self`:代表在当前窗口打开。不填则为：`_blank`。[更多介绍](http://www.w3school.com.cn/tags/att_a_target.asp)
 
 ```json
-{"name":"音乐","class":"fa fa-music","link":"xxx.com"},
-{"name":"笔记","class":"fa fa-book","link":"xxx.com"}
+{"name":"音乐","class":"glyphicon glyphicon-music","link":"xxx.com"},
+{"name":"笔记","class":"glyphicon glyphicon-book","link":"xxx.com"},
+{"name":"相册","class":"fontello fontello-picture","link":"xxx.com","target":"_self"}
 ```
 
-<p class="tip">每两项之间，用英文逗号(,)隔开，最后一项请勿加上逗号。</p>
+<p class="tip">**每两项之间，用英文逗号(,)隔开，最后一项请勿加上逗号。** </p>
 
+!> 配置使用的json语法，在配置内容外面套上一个中括号即：`[你的配置内容]`，然后去[json校验](https://www.bejson.com/) 可以检查你的填写配置是否正确。
+
+!> 不显示图标，原因可能是**语法错误**或者**图标根本就不在[图标列表](/icons)中**，只能使用[图标列表](/icons)中的图标。 
 
 ** 隐藏默认栏目：**
 
@@ -51,7 +55,8 @@
 与`左侧边栏导航`配置的书写规则完全相同：
 
 ```json
-{"name":"音乐","class":"fa fa-music","link":"xxx.com"}
+{"name":"音乐","class":"fa fa-music","link":"xxx.com"},
+{"name":"相册","class":"fontello fontello-picture","link":"xxx.com","target":"_self"}
 ```
 
 ** 隐藏默认栏目：**
@@ -99,3 +104,5 @@
 
 <p class="warn">简单配置，只需要修改"value"和"link"的值。高级配置，模仿上面的写法，增加或者删除相应的项目即可。</p>
 <p class="tip">每两项之间，用英文逗号(,)隔开，最后一项请勿加上逗号。</p>
+
+
