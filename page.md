@@ -8,7 +8,7 @@
 
 ### 时光机
 
-!> 关注微信公众号`ihewro（我要起飞啦熬）`按照[微信公众号发送时光机](/wecaht) 即可通过微信公众号同步发送到handsome主题的博客中
+!> 关注微信公众号`ihewro（我要起飞啦熬）`按照[微信公众号发送时光机](/wechat) 即可通过微信公众号同步发送到handsome主题的博客中
 
 * 填写地址的时候，默认填写为 <span style="color: rgb(255, 255, 255); background-color: rgb(250, 192, 143);">cross</span>.html 。
 
