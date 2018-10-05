@@ -22,6 +22,21 @@
 举个例子：
 
 ```html
+
+<!--首页名称左侧的图标设置项，直接填写class的内容即可，如：-->
+
+<!--iconfont图标-->
+iconfont icon-xxx
+
+<!--Glyphicons图标-->
+glyphicon glyphicon-eur
+
+<!--fontello图标-->
+fontello fontello-xxx
+
+
+<!--下面三种是一般的HTML用法，一般是使用不到的-->
+
 <!--iconfont图标-->
 <i class="iconfont icon-xxx"></i>
 
