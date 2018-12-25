@@ -1,7 +1,6 @@
-# Handsome Theme <small>4.5 Pro</small>
+# Handsome Theme <small>5.0 Pro soon</small>
 
-人类创造内容，我们负责渲染
-
+是博客主题，更是时光记录的载体
 
 
 [联系作者](https://www.ihewro.com/)
