@@ -128,7 +128,13 @@ loadMeting();
 * qq上给我留言
 
 
+#### 搜索框搜索提示有内容，但是最终的页面没有显示结果？
 
+* typecho bug，详见[issue#705](https://github.com/typecho/typecho/issues/705)
 
+* 打开 typecho 目录下面的 `var/Widget/Archive.php`文件
+
+* 搜索`$keywords = $this->request->filter('url', 'search')->keywords;`
+替换成`$keywords = $this->request->keywords;`
 
 
