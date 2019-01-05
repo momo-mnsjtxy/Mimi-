@@ -1,4 +1,4 @@
-# Handsome Theme <small>5.0 Pro 测试版</small>
+# Handsome Theme <small>5.0 Pro</small>
 
 是博客主题，更是时光记录的载体
 
