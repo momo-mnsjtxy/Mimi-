@@ -137,4 +137,8 @@ loadMeting();
 * 搜索`$keywords = $this->request->filter('url', 'search')->keywords;`
 替换成`$keywords = $this->request->keywords;`
 
+## Dplayer-Typecho不能显示弹幕
+
+* [修复官方Dplayer-Typecho插件不能连接弹幕API后端的方法](https://www.moerats.com/archives/856/#comments)
+
 
