@@ -150,6 +150,14 @@ handsome支持以下类型的按钮：
     *  `primary`：紫色
     *  `danger`：红色
 * `icon`：选填，不填默认为文字按钮，可用按钮见[图标列表](./icons)
+* `url`:选填，填写点击的链接。举例：如果你的链接是`http://www.baidu.com`，请手动将`/`前面加一个反斜杆`\`，即`http:\/\/www.baidu.com`
+
+举例：
+```html
+[button color="danger" icon="fontello fontello-gratipay" url="http:\/\/wpa.qq.com\/msgrd?v=3&uin=535425690&site=qq&menu=yes"]点击QQ咨询购买（√推荐）[/button]
+
+[button color="success" icon="glyphicon glyphicon-send" url="mailto:ihewro@163.com"]ihewro#163.com[/button]
+```
 
 ### 文章内插入音乐
 

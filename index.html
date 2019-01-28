@@ -46,7 +46,7 @@
 
 <script type="text/javascript">
   var host = "ihewro.github.io";
-  if (window.location.protocol != "https:")
+  if (("localhost:3000" !== window.location.host) && (window.location.protocol != "https:") && ("127.0.0.1:3000" !== window.location.host))
       window.location.protocol = "https";
 </script>
 
