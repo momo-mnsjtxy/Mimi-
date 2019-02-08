@@ -12,10 +12,11 @@
 
 ### 邮件通知插件插件
 
-| 插件名称                                     | 介绍                                       |
-| ---------------------------------------- | ---------------------------------------- |
+| 插件名称                                                     | 介绍                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[Mailer](https://pan.baidu.com/s/1Ob2EyVQvly8AAKLpYlsU9g)** | [typecho 创始人](https://joyqi.com/typecho/typecho-async-service.html)对typecho1.1 适配的插件，必须是1.1+版本才可以，因为文字中给的是[Mailer.tar.gz](https://joyqi.com/usr/uploads/2017/11/3224167191.gz) 后缀，我解压了上传到百度云的是`zip`包，直接下载百度云那个即可。 |
 | [CommentToMail（羽飞原版）](http://typecho.byends.com/post/CommentToMail-v2-0-0.html) | 老牌的typecho评论通知插件，可是很多小伙伴们说后台怎么配置都无法发信，韩红听了都想打人，我用的可以。 |
-| [CommentToMail（更新版1）](https://9sb.org/58) | [王忘杰](https://9sb.org/)更新版本： 更新了PHP Mailer版本关闭了使用SMTP发信的证书认证（QQ邮箱证书加密级别太低） |
+| [CommentToMail（更新版1）](https://9sb.org/58)               | [王忘杰](https://9sb.org/)更新版本： 更新了PHP Mailer版本关闭了使用SMTP发信的证书认证（QQ邮箱证书加密级别太低） |
 | [CommentToMail（更新版2）](https://blog.zhiyuanyun.cc/archives/CommentToMail.html) | [致远博客](https://blog.zhiyuanyun.cc/)更新版本：使用网址监控方法避免异步触发失败 |
 
 ### 个人喜欢的其他插件

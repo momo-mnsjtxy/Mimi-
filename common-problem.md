@@ -73,7 +73,7 @@ sudo chmod -R 777 plugin
 
 如果仍有问题，请联系我。
 
-#### 评论区不能斗图不能显示图片 | 说说不能显示图片/音乐播放器/视频播放器**
+#### 评论区不能斗图不能显示图片 | 说说不能显示图片/音乐播放器/视频播放器
 
 * 后台 `设置——评论——允许使用的HTML标签和属性` 里面添加html标签
 ```html
@@ -137,7 +137,7 @@ loadMeting();
 * 搜索`$keywords = $this->request->filter('url', 'search')->keywords;`
 替换成`$keywords = $this->request->keywords;`
 
-## Dplayer-Typecho不能显示弹幕
+#### Dplayer-Typecho不能显示弹幕
 
 * [修复官方Dplayer-Typecho插件不能连接弹幕API后端的方法](https://www.moerats.com/archives/856/#comments)
 
