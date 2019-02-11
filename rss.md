@@ -34,7 +34,16 @@
     * `title` 仅显示文章标题
     * `mix` 显示标题+摘要 （暂不支持）
 
+### RSS 源禁止跨域怎么办？
+
+最简单的解决办法是：在原有的RSS源地址前面加上`https://cors-anywhere.herokuapp.com/`
+
+**举例**：
 
 
+`https://api.fanfou.com/statuses/user_timeline/~k40sgjV_6kg.rss`  该源是禁止跨域的，所有无法请求到（浏览器可以正常访问，但是无法通过代码获取数据），修改后的源地址为：
 
+`https://cors-anywhere.herokuapp.com/https://api.fanfou.com/statuses/user_timeline/~k40sgjV_6kg.rss`
+
+填`url`属性就填后者即可。（可能速度会有些影响）
 

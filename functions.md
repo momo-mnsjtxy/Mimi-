@@ -1,4 +1,4 @@
-### 博文头图
+#### 博文头图
 
 ![headerpic](https://ihewrocdn.b0.upaiyun.com/img/headerpic.png)
 
@@ -45,7 +45,7 @@
 每篇文章的编辑页面底部的自定义字段中，字段名为`thumb`,当值为`no`的时候，会不显示当前文章的头图（首页头图和文章头图）（仅对当前文章有效）,这里的设置同样会无视上面的设置。
 
 
-### 灯箱插件
+#### 灯箱插件
 
 文章中如果某个图片不想显示灯箱效果，可以给图片标签中加入`nogallery`属性：
 
@@ -53,19 +53,24 @@
 <img nogallery src="">
 ```
 
-如果某张图片高度很大，想折叠展示，可以给图片标签加入`max`属性：
+**如果某张图片高度很大，想折叠展示，可以给图片标签加入`max`属性：**
 
 ```html
 <img max src="">
 ```
-### DNS预解析
+
+![](https://ws4.sinaimg.cn/large/006tNc79ly1g01rzaa2cmj310k0jygoz.jpg)
+
+#### DNS预解析
+
+!> 这个功能即将被删除
 
 DNS prefetching通过指定具体的URL来告知客户端未来会用到相关的资源，告诉客户端可以尽早的解析DNS。
 
 更多详细信息，[请戳这个](https://www.linpx.com/p/small-practice-of-prefetching-dns.html)
 
 
-### 文章目录树
+#### 文章目录树
 
 文章中的目录树已经内置代码，**仅当文章有h2 h3 h4标题** 才会生成目录树，并且手机端不显示目录树。
 
@@ -74,13 +79,13 @@ DNS prefetching通过指定具体的URL来告知客户端未来会用到相关�
 
 
 
-### 侧边栏的标签云
+#### 侧边栏的标签云
 
 需要在新建文章的页面右侧填写标签，才会在首页侧边栏输出的。(回车添加当前标签)
 
 ![tagcloud](https://ihewrocdn.b0.upaiyun.com/img/tag.png)
 
-### 自定义摘要字数
+#### 自定义摘要字数
 
 大版式头图默认摘要字数200字，小版式头图默认摘要字数80字。你可以在`后台外观设置->自定义大版式头图摘要/自定义小版式头图摘要`来改变这两个默认值。
 
@@ -92,13 +97,13 @@ DNS prefetching通过指定具体的URL来告知客户端未来会用到相关�
 <!--more-->
 ```
 
-### 添加自定义图标
+#### 添加自定义图标
 
 主题已经内置的图标列表，详见[图标列表](https://handsome.ihewro.com/#/icons)
 
 如果不能满足你的图标需求，可以使用以下方法扩充主题图标：
 
-#### 方法一：傻瓜式扩充fontawesome图标
+##### 方法一：傻瓜式扩充fontawesome图标
 
 直接引入全套的fontawesome图标：
 
@@ -110,7 +115,7 @@ DNS prefetching通过指定具体的URL来告知客户端未来会用到相关�
 
 上面的fontawesome 的css文件来自bootcdn.css 公共cdn提供，你可以替换成自己的文件。
 
-#### 方法二：自定义添加iconfont图标列表
+##### 方法二：自定义添加iconfont图标列表
 主题内置fontello图标来自网站`http://fontello.com/`
 
 你可以在该网站中导入主题目录下的`assets/fonts/fontello`的`config.json`，然后重新生成字体文件。
@@ -120,7 +125,7 @@ DNS prefetching通过指定具体的URL来告知客户端未来会用到相关�
 （难度较大，不推荐……）
  
 
-### 文章中插入按钮
+#### 文章中插入按钮
 
 handsome支持以下类型的按钮：
 *  矩形文字按钮
@@ -159,7 +164,7 @@ handsome支持以下类型的按钮：
 [button color="success" icon="glyphicon glyphicon-send" url="mailto:ihewro@163.com"]ihewro#163.com[/button]
 ```
 
-### 文章内插入音乐
+#### 文章内插入音乐
 
 **点击编辑器的插入音乐图标**可以在文章内可以插入音乐歌曲地址，支持云解析和本地MP3地址两种方式：
 
@@ -184,8 +189,7 @@ handsome支持以下类型的按钮：
 
 ?> 文章页面插入播放器`size`默认为`large`时光机插入播放器`size`默认为`small`</br>你也可以手动改动这个标签的内容以选择不同的播放器样式:)
 
-### 文章内插入视频
-
+#### 文章内插入视频
 
 **点击编辑器的插入音乐图标**可以插入视频，只支持本地的视频地址的播放
 
@@ -204,10 +208,11 @@ handsome支持以下类型的按钮：
 
 
 
-### 文章内调用其他文章
+#### 文章内调用其他文章
 
 **点击编辑器的调用文章的按钮**可以调用其他文章并显示。
 
+![](https://ws2.sinaimg.cn/large/006tNc79ly1g01rxlwb8aj30ze0l8q3z.jpg)
 
 ```markdown
 [post cid="1" /]
@@ -219,8 +224,58 @@ handsome支持以下类型的按钮：
 * `cover`：可选项，调用文章显示的封面，如果不填则默认显示随机缩略图。
 
 
+#### 文章内调用外链网站
 
-### 文章中使用mathJax公式
+!> v5.0及其以上版本支持调用外链
+
+![](https://ws2.sinaimg.cn/large/006tNc79ly1g01ry4640lj30vi0a2jrq.jpg)
+
+```
+[post url="https:\/\/www.ihewro.com" title="友人C" intro="一个个人博客" cover="http://www.ihewro.com/img/xxx.jpg" /]
+```
+
+* `title`：必填，外链的名称/标题
+* `url`：必填，外链的地址（请填写绝对地址，就是浏览器地址栏什么样的就填什么样的）
+* `intro`：（可选）外链网站的简介/介绍
+* `cover`：（选填）外链网站的介绍图片地址
+
+#### 文章内插入相册
+
+!> v5.1 版本及其以上支持
+
+![](https://ws2.sinaimg.cn/large/006tNc79ly1g01rx4vn36j30pe0dmdgm.jpg)
+**使用方法：**
+
+```
+[album](插入图片，支持图片的HTML格式或者是markdown语法都可以，支持外链或者附件上传均可)[/album]
+```
+
+**举例：**
+```
+//方式1（markdown语法）
+[album]
+![图片描述1][1]
+![图片描述2][2]
+[/album]
+  [1]: http://xxx.com/xxx1.jpg
+  [2]: http://xxx.com/xxx2.jpg
+  
+//方式2（markdown语法）
+[album]
+![图片描述1](http://xxx.com/xxx1.jpg)
+![图片描述2](http://xxx.com/xxx2.jpg)
+[/album]
+
+//方式3（HTML语法）
+[album]
+<img src="http://xxx.com/xxx1.jpg" alt="图片描述1" />
+<img src="http://xxx.com/xxx2.jpg" alt="图片描述2" />
+[/album]
+```
+
+**相关问题：[typecho1.1版本编辑器无法解析HTML代码](./common-problem?id=typecho11版本编辑器无法解析html代码)**
+
+#### 文章中使用mathJax公式
 
 * 需要在`后台外观设置——主题增强功能`中启用`公式（MathJax）`选项。
 
@@ -240,7 +295,7 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 \\( x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}  \\)
 ```
 
-### 文章内部分隐藏回复可见
+#### 文章内部分隐藏回复可见
 
 在文章使用使用
 ```html
@@ -257,7 +312,7 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 [login]需要加密的内容[/login]
 ```
 
-### 文章中插入短代码高亮文本
+#### 文章中插入短代码高亮文本
 
 ```markdown
 [scode type="share"]这是灰色的短代码框，常用来引用资料什么的[/scode]
@@ -270,7 +325,7 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 
 ![](https://ws2.sinaimg.cn/large/006tNc79ly1foutefje7wj30os0g0dgc.jpg)
 
-### 文章中插入收缩框
+#### 文章中插入收缩框
 
 示例代码：
 ```
@@ -283,7 +338,7 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 
 不写`status` 属性，默认是展开内容的。
 
-### 博客时间友好格式化
+#### 博客时间友好格式化
 
 > **使用效果**
 
@@ -302,4 +357,6 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 **在这里同样可以修改博客的时间格式为你需要的时间格式，值为标准的php格式。**
 
 如标准时间格式：`Y-n-j H:i:s` 
+
+
 

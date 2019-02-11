@@ -9,7 +9,7 @@
   - [RSS 配置](./rss)
   - [独立页面](/page)
   - [评论系统](/comment)
-  - <li><a style="color:red" href="#functions">增强功能</a></li>
+  - <li><a style="color:red" href="#/functions">增强功能</a></li>
   - [评论表情](/emotion)
   - [图标列表](/icons)
   - [速度优化](/speed)

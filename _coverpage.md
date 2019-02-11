@@ -1,6 +1,6 @@
-# Handsome Theme <small>5.0 Pro</small>
+# Handsome Theme <small>5.1 Pro 即将更新</small>
 
-是博客主题，更是时光记录的载体
+界面一见倾心，功能满足幻想
 
 
 [联系作者](https://www.ihewro.com/)
