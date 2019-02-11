@@ -6,7 +6,7 @@
 
 - 进阶设定
   - [相册](/album)
-  - [RSS 配置](./rss)
+  - [RSS 配置](/rss)
   - [独立页面](/page)
   - [评论系统](/comment)
   - <li><a style="color:red" href="#/functions">增强功能</a></li>
