@@ -1,4 +1,4 @@
-# Handsome Theme <small>5.1 Pro 即将更新</small>
+# Handsome Theme <small>5.1 Pro</small>
 
 界面一见倾心，功能满足幻想
 

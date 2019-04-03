@@ -1,6 +1,6 @@
 - 开始使用
   - [快速开始](/start)
-  - [友链设置](/plugin)
+  - [插件设置](/plugin)
   - <li ><a style="color:red" href="#/common-problem">常见问题</a></li>
   - [从微信公众号发送时光机](/wechat)
 
