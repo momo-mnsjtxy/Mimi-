@@ -15,3 +15,5 @@
 
 * [ColorHighlight插件实现Mac风格代码高亮](https://www.xcnte.com/archives/377/)
 
+* [安利一款Hansome主题专用的UserAgent插件](https://blog.xiaojian.party/coding/useragent-modify.html)
+
