@@ -17,3 +17,5 @@
 
 * [安利一款Hansome主题专用的UserAgent插件](https://blog.xiaojian.party/coding/useragent-modify.html)
 
+* [神代綺凜式魔改出现的相关问题解决附魔改教程](https://www.zxu.me/archives/16/)
+
