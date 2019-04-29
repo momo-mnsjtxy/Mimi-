@@ -2,7 +2,7 @@
 
 !> 4.3.0 进行了升级，请务必重新更新配置
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1frk5olgebaj31kw0kz75v.jpg)
+![](media/15565124211947.jpg)
 
 在配置框按照格式填写
 
@@ -20,14 +20,16 @@
 * 创建服务——CDN
 *  按照下图配置
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1frk6664mfkj31hk0z6q4u.jpg)
+![](media/15565125252587.jpg)
+
 
 * 创建完成后，需要在域名解析中，将刚才的加速域名解析到给定分配的cname地址
+![](media/15565125121882.jpg)
 
-  ![](https://ws1.sinaimg.cn/large/006tKfTcly1frk67z8ozmj31cw0ms3zk.jpg)
   
 * 在服务配置的——回源管理——开启源站资源迁移
-![](https://ws4.sinaimg.cn/large/006tKfTcly1frk6a73sr5j31kc16ogn6.jpg)
+![](media/15565125007178.jpg)
+
   
 
 > 七牛云举例：
@@ -35,7 +37,9 @@
 ```
 选择对象存储——镜像存储——填写镜像空间地址
 ```
-![](https://ws4.sinaimg.cn/large/006tKfTcly1frk6exdylsj31kw12sdn6.jpg)
+
+![](media/15565125650360.jpg)
+
 
 注意：你的七牛空间必须在`镜像存储的设置项`中填写你的**博客地址**(例如：https://www.ihewro.com/)，这样才能达到加速的效果。
 

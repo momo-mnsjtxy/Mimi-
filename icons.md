@@ -6,12 +6,14 @@
 
 **1. 主题内置的iconfont图标：**
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1ftr34y793vj31gc0vc75i.jpg)
+![](media/15565128177607.jpg)
+
 
 
 **2. 主题内置的fontello图标：** 
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1ftr336pqdnj31kw0jlaca.jpg)
+![](media/15565128226100.jpg)
+
 
 **3. bootcss自带的Glyphicons字体图标：** 详细见[Glyphicons 字体图标](http://v3.bootcss.com/components/#glyphicons)
 

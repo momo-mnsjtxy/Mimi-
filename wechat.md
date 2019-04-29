@@ -4,7 +4,7 @@
 
 微信公众号搜索`ihewro` 或者 `我要起飞啦熬` 或者扫描下方二维码关注
 
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fv7361tqv1j30760760st.jpg)
+![](media/15565123657438.jpg)
 
 ## 绑定自己的handsome主题博客
 
@@ -12,13 +12,16 @@
 
 在`时光机`的修改页面的地址栏可以看见：
 
-![](https://ws2.sinaimg.cn/large/006tNbRwly1fv737wzbryj313a0cy74f.jpg)
+![](media/15565123801998.jpg)
+
+![](media/15565126359178.jpg)
+
 
 !> 比如，我的时光机url为`https://www.ihewro.com/admin/write-page.php?cid=459`，则`cid`为`459`
 
 #### 2. 填写时光机验证编码（仅handsome4.5.0+支持该功能）
 
-![](https://ws3.sinaimg.cn/large/006tNbRwly1fv739ocn7dj313q0bxwew.jpg)
+![](media/15565123987599.jpg)
 
 
 

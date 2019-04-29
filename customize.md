@@ -14,7 +14,7 @@
 4. 时光机的联系方式内容
 ```
 
-![customize](https://ihewrocdn.b0.upaiyun.com/img/customise.png)
+![](media/15565128014572.png)
 
 <p class="warn">下面配置中所有的可用网页图标列表，参考[图标列表](/icons)</p>
 
