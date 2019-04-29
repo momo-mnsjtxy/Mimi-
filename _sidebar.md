@@ -3,9 +3,11 @@
   - [插件设置](/plugin)
   - <li ><a style="color:red" href="#/common-problem">常见问题</a></li>
   - [从微信公众号发送时光机](/wechat)
+  - [从浏览器扩展发送时光机](/crx)
 
 - 进阶设定
   - [相册](/album)
+  - [内容加密](/lock)
   - [RSS 配置](/rss)
   - [独立页面](/page)
   - [评论系统](/comment)
