@@ -21,3 +21,5 @@
 
 * [神代綺凜式魔改出现的相关问题解决附魔改教程](https://www.zxu.me/archives/16/)
 
+* [handsome主题美化/修改教程](https://www.monq.design/jishu/211.html)
+
