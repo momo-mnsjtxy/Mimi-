@@ -19,7 +19,7 @@
 
 * [安利一款Hansome主题专用的UserAgent插件](https://blog.xiaojian.party/coding/useragent-modify.html)
 
-* [神代綺凜式魔改出现的相关问题解决附魔改教程](https://www.zxu.me/archives/16/)
+* [神代綺凜式魔改出现的相关问题解决附魔改教程](https://www.sukeycz.com/course/mod-jk)
 
 * [handsome主题美化/修改教程](https://www.citrons.cn/jishu/211.html)
 
