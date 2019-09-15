@@ -347,6 +347,40 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 
 不写`status` 属性，默认是展开内容的。
 
+#### 文章内插入标签卡
+
+示例代码：
+
+```
+[tabs]
+[tab name="标签页 1" active="true"]内容 1[/tab]
+[tab name="标签页 2"]内容 2[/tab]
+[/tabs]
+```
+
+每个tab 都必须包括`name`属性，只能有一个tab 添加`active`属性，表示默认显示该tab的内容。
+
+此外tab支持更多css的属性，比如颜色，字体粗细等：
+
+```
+[tab name="标签页 2" color:"#000" font-weight="bold"]高级内容文本示例[/tab]
+```
+
+#### 文章内插入标签
+
+示例代码：
+
+```
+[tag]默认白色文字[/tag]
+[tag type="primary"]紫色文字[/tag]
+[tag type="info"]蓝色文字[/tag]
+[tag type="warning"]黄色文字[/tag]
+[tag type="danger"]红色文字[/tag]
+[tag type="success"]绿色文字[/tag]
+[tag type="dark"]黑色文字[/tag]
+```
+
+
 #### 文章内插入图集
 
 示例代码：

@@ -1,4 +1,4 @@
-# Handsome Theme <small>5.2 Pro</small>
+# Handsome Theme <small>5.3 Pro</small>
 
 心有猛虎，细嗅蔷薇
 
