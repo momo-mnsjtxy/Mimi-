@@ -78,7 +78,7 @@
         '                    </div>\n' +
         '                    <div class="mdui-panel-item-body"><p>\n' +
         '                        {ITEM_CONTENT}\n' +
-        '                        </p><button class="click_star_course mdui-btn mdui-color-theme-accent" data-id="{ITEM_ID}"><i class="mdui-menu-item-icon mdui-icon material-icons">thumb_up</i>点赞(<span id="course_span_{ITEM_ID}">{ITEM_HOT}</span>)</button>\n' +
+        '                        </p><button class="click_star_course mdui-btn mdui-color-theme-accent" data-id="{ITEM_ID}"><i class="mdui-menu-item-icon mdui-icon material-icons">thumb_up</i>点赞(<span id="course_span_{ITEM_ID}">{ITEM_HOT}</span>)</button><button class="click_link mdui-btn mdui-color-theme-accent" data-url="{ITEM_URL}"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i>访问</button>\n' +
         '                    </div>\n' +
         '                </div>';
 
@@ -154,6 +154,7 @@
                                 .replace("{ITEM_CONTENT}",item.content)
                                 .replace("{ITEM_TITLE}",item.title)
                                 .replace("{ITEM_HOT}",item.hot)
+                                .replace("{ITEM_URL}",item.link)
                                 .replace("{ITEM_ID}",item.id)
                                 .replace("{ITEM_ID}",item.id)
                                 .replace("{ITEM_ID}",item.id)
