@@ -2,6 +2,9 @@
 
 !> 欢迎投稿，感谢！
 
+<b> <a style="color:red" href="https://handsome.ihewro.com/user.html" target="_blank">handsome用户分享社区</a></b>
+
+!> 用户可以在「handsome自助授权平台」中添加教程，可以添加任何你觉得不错的教程
 
 * [本博客基于Handsome主题的一些小修改教程](https://www.moerats.com/archives/628/)
 
