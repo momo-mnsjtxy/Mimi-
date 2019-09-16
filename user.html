@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>handsome自定义修改教程用户分享</title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <script type="text/javascript" src="https://cdnjs.loli.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+    <style>body{font-family:Microsoft Yahei,serif;}.main{min-width:320px;max-width:600px;margin-top:200px;}.submitButton{margin-top:20px;}@media only screen and (max-width:800px){.main{margin-top:80px;}}
+
+    .mdui-overlay{
+        opacity: 1!important;
+    }
+
+    </style>
+</head>
+<body class="mdui-theme-primary-blue-grey">
+
+
+<div class="mdui-container main">
+    <div class="mdui-center mdui-text-color-grey-800 mdui-text-center" style="float: left;width:100%;font-size: 35px;">
+        handsome用户分享社区
+    </div>
+
+
+
+    <div class="mdui-center" style="width: 100%;float: left">
+
+        <div class="mdui-tab mdui-tab-centered mdui-m-t-5" mdui-tab>
+            <a id="toexample1-tab1" href="#example1-tab1" class="mdui-ripple">博客展示</a>
+            <a id="toexample1-tab2" href="#example1-tab2" class="mdui-ripple">自定义修改教程分享</a>
+        </div>
+
+
+        <div id="example1-tab1" class="mdui-p-a-2">
+            <div class="mdui-panel mdui-panel-popout domain_content" mdui-panel>
+
+
+            </div>
+
+
+        </div>
+        <div id="example1-tab2" class="mdui-p-a-2">
+
+            <div class="mdui-panel mdui-panel-popout course_content" mdui-panel>
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+<div class="" style="">
+</div>
+<script>
+
+
+
+    var domainItemTemplate = '<div class="mdui-panel-item" id="item_{ITEM_ID}">\n' +
+        '                    <div class="mdui-panel-item-header">{ITEM_TITLE}\n' +
+        '                    </div>\n' +
+        '                    <div class="mdui-panel-item-body"><p>\n' +
+        '                        {ITEM_CONTENT}\n' +
+        '                        </p><button class="click_star_domain mdui-btn mdui-color-theme-accent" data-id="{ITEM_ID}"><i class="mdui-menu-item-icon mdui-icon material-icons">thumb_up</i>点赞(<span id="domain_span_{ITEM_ID}">{ITEM_HOT}</span>)</button><button class="click_link mdui-btn mdui-color-theme-accent" data-url="{ITEM_CONTENT}"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i>访问</button>\n' +
+        '                    </div>\n' +
+        '                </div>';
+
+
+    var courseItemTemplate = '<div class="mdui-panel-item" id="item_{ITEM_ID}">\n' +
+        '                    <div class="mdui-panel-item-header">{ITEM_TITLE}\n' +
+        '                    </div>\n' +
+        '                    <div class="mdui-panel-item-body"><p>\n' +
+        '                        {ITEM_CONTENT}\n' +
+        '                        </p><button class="click_star_course mdui-btn mdui-color-theme-accent" data-id="{ITEM_ID}"><i class="mdui-menu-item-icon mdui-icon material-icons">thumb_up</i>点赞(<span id="course_span_{ITEM_ID}">{ITEM_HOT}</span>)</button>\n' +
+        '                    </div>\n' +
+        '                </div>';
+
+    var url = "https://auth.ihewro.com";
+
+    //检查cookie，如果没有登录的信息，则弹出对话框
+
+    $(".operation-menu_button").click(function () {
+
+        mdui.snackbar({message:'未输入关键词！'})
+    });
+
+
+    $("#toexample1-tab1").on("show.mdui.tab",function () {
+        //请求数据
+        if ($(".domain_content").attr("data-status")!=="1"){
+
+            $.ajax({
+                type: 'Get',
+                url: url+"/user/user_domain_list",
+                success: function(data) {
+                    //
+                    var contentContainer = $(".domain_content");
+                    contentContainer.html("");
+                    data = data.data;
+                    console.log(data);
+                    if (data){
+                        for (var i in data){
+                            var item = data[i];
+                            //匹配替换
+                            var itemHtml = domainItemTemplate
+                                .replace("{ITEM_CONTENT}",item.content)
+                                .replace("{ITEM_CONTENT}",item.content)
+                                .replace("{ITEM_TITLE}",item.title)
+                                .replace("{ITEM_HOT}",item.hot)
+                                .replace("{ITEM_ID}",item.id)
+                                .replace("{ITEM_ID}",item.id)
+                                .replace("{ITEM_ID}",item.id)
+                                .replace("{ITEM_ID}",item.id);
+                            contentContainer.append(itemHtml);
+                            $(".domain_content").attr("data-status","1")
+
+                        }
+
+                    }
+
+                }
+            });
+        }
+
+    });
+
+
+
+    $("#toexample1-tab2").on("show.mdui.tab",function () {
+        //请求数据
+        if ($(".course_content").attr("data-status")!=="1"){
+
+            $.ajax({
+                type: 'Get',
+                url: url+"/user/user_course_list",
+                success: function(data) {
+                    //
+                    var contentContainer = $(".course_content");
+                    contentContainer.html("");
+                    data = data.data
+                    console.log(data)
+                    if (data){
+                        for (var i in data){
+                            var item = data[i];
+                            //匹配替换
+                            var itemHtml = courseItemTemplate
+                                .replace("{ITEM_CONTENT}",item.content)
+                                .replace("{ITEM_TITLE}",item.title)
+                                .replace("{ITEM_HOT}",item.hot)
+                                .replace("{ITEM_ID}",item.id)
+                                .replace("{ITEM_ID}",item.id)
+                                .replace("{ITEM_ID}",item.id)
+                                .replace("{ITEM_ID}",item.id);
+                            contentContainer.append(itemHtml);
+                            $(".course_content").attr("data-status","1")
+                        }
+
+                    }
+
+                }
+            });
+        }
+
+    });
+
+
+
+
+    $("body").delegate(".click_star_domain","click",function(){
+
+
+        var id = $(this).attr("data-id");
+
+        $.ajax({
+            type: 'Get',
+            url: url+"/user/add_hot_to_domain?id=" + id,
+            success: function(data) {
+                console.log(data);
+                if (data == 1){
+                    mdui.snackbar({
+                        message: '点赞成功'
+                    });
+                    $("#domain_span_"+id).text(parseInt($("#domain_span_"+id).text())+1)
+                }
+
+            }
+        });
+
+
+    });
+
+    $("body").delegate(".click_link","click",function(){
+
+
+        var url = $(this).attr("data-url");
+        window.open(url);
+
+
+    });
+
+    $("body").delegate(".click_star_course","click",function(){
+
+
+        var id = $(this).attr("data-id");
+
+        $.ajax({
+            type: 'Get',
+            url: url+"/user/add_hot_to_course?id=" + id,
+            success: function(data) {
+                console.log(data);
+                if (data == 1){
+                    mdui.snackbar({
+                        message: '点赞成功'
+                    });
+                    $("#course_span_"+id).text(parseInt($("#course_span_"+id).text())+1)
+                }
+
+            }
+        });
+
+
+    });
+
+
+
+    $("body").delegate(".item_delete","click",function(e){
+
+        var id = $(this).attr("date-id");
+        $.ajax({
+            type: 'Get',
+            url: url+"/delete?id=" + id,
+            success: function(data) {
+
+                $("#item_"+id).remove();
+                mdui.snackbar({
+                    message: '销毁了'
+                });
+            },error: function () {
+                console.log("error")
+
+            }
+        });
+    });
+
+
+</script>
+</body>
+</html>
