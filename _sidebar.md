@@ -1,6 +1,7 @@
 - 开始使用
   - [快速开始](/start)
   - [更新主题](/update)
+  - [授权平台](/auth)
   - <li ><a style="color:red" href="#/common-problem">常见问题</a></li>
 
 - 特色功能
