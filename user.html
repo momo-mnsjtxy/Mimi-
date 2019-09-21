@@ -79,7 +79,7 @@
         '                    </div>\n' +
         '                    <div class="mdui-panel-item-body"><p>\n' +
         '                        {ITEM_CONTENT}\n' +
-        '                        </p><button class="click_star_course mdui-btn mdui-color-theme-accent" data-id="{ITEM_ID}"><i class="mdui-menu-item-icon mdui-icon material-icons">thumb_up</i>点赞(<span id="course_span_{ITEM_ID}">{ITEM_HOT}</span>)</button><button class="click_link mdui-btn mdui-color-theme-accent" data-url="{ITEM_URL}"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i>访问</button>\n' +
+        '                        </p><button class="click_link mdui-btn mdui-color-theme-accent" data-url="{ITEM_URL}"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i>访问</button>\n' +
         '                    </div>\n' +
         '                </div>';
 
@@ -206,30 +206,7 @@
 
 
     });
-
-    $("body").delegate(".click_star_course","click",function(){
-
-
-        var id = $(this).attr("data-id");
-
-        $.ajax({
-            type: 'Get',
-            url: url+"/user/add_hot_to_course?id=" + id,
-            success: function(data) {
-                console.log(data);
-                if (data == 1){
-                    mdui.snackbar({
-                        message: '点赞成功'
-                    });
-                    $("#course_span_"+id).text(parseInt($("#course_span_"+id).text())+1)
-                }
-
-            }
-        });
-
-
-    });
-
+    
 
 
     $("body").delegate(".item_delete","click",function(e){
