@@ -12,10 +12,20 @@
 
 ## 安装扩展
 
+### firefox浏览器
+
+> 由[陈小儒](https://blog.cxryun.cn/)友情开发
+
+
+在Firefox里面打开[时光机插件](https://addons.mozilla.org/zh-CN/firefox/addon/handsome%E6%97%B6%E5%85%89%E6%9C%BA/)
+
+点击`添加到Firefox`按钮即可直接安装。
+
 ### Chrome浏览器
 
-【暂不支持，因为没有Google开发者账号】打开Chrome官方应用商店，搜索handsome
+【暂不支持直接安装，因为没有Google开发者账号】打开Chrome官方应用商店，搜索handsome
 
+【手动安装】
 1. 将主题包里面「crx」文件夹移动到你的计算机一个固定的位置。
 2. 打开Chrome浏览器，地址栏输入`chrome://extensions/`回车，选中「开发者模式」
 3. 点击「加载已解压的扩展程序」，选中「crx」文件夹即可

@@ -22,7 +22,6 @@
   - [多语言设置](/i18n)
   - [自定义栏目](/customize)
   - [自定义pjax动画](/pjaxanimate)
-  - [~~主题增强包~~](/enhancedPackage)
   - [个性化修改](/customEdit)
   - [typecho相关](/typecho)
 
