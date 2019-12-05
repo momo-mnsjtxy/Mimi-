@@ -440,38 +440,20 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 {"title":"第一篇文章","link":"","cover":"","desc":""}
 ``` 
 
+```json
+{"title":"handsome —— 一如少年般模样","link":"http://www.ihewro.com", "cover":"xxx.jpg","desc":"在复杂中，保持简洁。 一款精心打磨后的typecho主题。"},
+{"title":"Focus——不只是RSS订阅器","link":"","cover":"xxx.jpg","desc":"拒绝信息化的算法推送"}
+```
+
 属性介绍：
 
 * title: 文章标题
 * link: 文章的地址
-* img: 文章图片地址
+* cover: 文章图片地址，比例建议8：3，不要太小，否则显示的不清楚
 * desc: 简单描述（不要太长）
 
 
 !> 最后一个`}`后面不要加上英文逗号
 
-#### 主题色调自定义搭配
-
-已有的颜色:
-* black 纯黑色
-* white 白色
-* info 蓝色
-* success  绿色
-* danger 深红色
-* dark 深色
-* light 灰白色
-
-其中`dker` 表示当前颜色增强
-
-
-搭配样例：
-
-分别代表：左侧边栏和上导航栏的交集部分、上导航栏、左侧边栏的颜色。
-
-```
-white-white-white 
-white dker-white-white 
-
-```
 
 

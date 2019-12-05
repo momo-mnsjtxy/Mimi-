@@ -24,12 +24,14 @@
 **添加自定义栏目：**
 
 * `name`：代表显示栏目/按钮的名称
-* `class`：表示栏目/按钮的网页图标的样式
+* `class`：使用[图标库](./icons)中的第1-3种的图标的class
+* `feather`：使用[图标库](./icons)第4种图标使用该属性
 * `link`：代表栏目/按钮的链接
 * `target`（可选）: 代表定在何处打开链接文档，如`_blank`:浏览器总在一个新打开、未命名的窗口中载入目标文档。`_self`:代表在当前窗口打开。不填则为：`_blank`。[更多介绍](http://www.w3school.com.cn/tags/att_a_target.asp)
 
 ```json
 {"name":"音乐","class":"glyphicon glyphicon-music","link":"xxx.com"},
+{"name":"音乐2","feather":"music","link":"xxx.com"},
 {"name":"笔记","class":"glyphicon glyphicon-book","link":"xxx.com"},
 {"name":"相册","class":"fontello fontello-picture","link":"xxx.com","target":"_self"}
 ```

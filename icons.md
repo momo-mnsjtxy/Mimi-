@@ -17,7 +17,13 @@
 
 **3. bootcss自带的Glyphicons字体图标：** 详细见[Glyphicons 字体图标](http://v3.bootcss.com/components/#glyphicons)
 
+**4. 主题内置的feather图标**
+
+支持 [feather](https://feathericons.com/)的所有图标。
+
 ?> 第一项和第二项的图标很少，如果找不到相应图标，建议在第三项的图标库中寻找 
+
+[相关问题：自定义栏目的图标使用](./customize)
 
 ## 使用方法
 
@@ -36,6 +42,8 @@ glyphicon glyphicon-eur
 <!--fontello图标-->
 fontello fontello-xxx
 
+<!--feather图标-->
+xxx
 
 <!--下面三种是一般的HTML用法，一般是使用不到的-->
 
@@ -47,7 +55,12 @@ fontello fontello-xxx
 
 <!--fontello图标-->
 <i class="fontello fontello-xxx"></i>
+
+<!--feather图标-->
+<i data-feather="xxx"></i>
+
 ```
+
 
 使用用途：
 

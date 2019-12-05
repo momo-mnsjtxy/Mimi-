@@ -24,6 +24,7 @@
   - [自定义pjax动画](/pjaxanimate)
   - [个性化修改](/customEdit)
   - [typecho相关](/typecho)
+  - [布局配色指南](/color)
 
 - 其他说明
   - [开发日志](/changelog)
