@@ -23,7 +23,8 @@
 
 ### Chrome浏览器
 
-【暂不支持直接安装，因为没有Google开发者账号】打开Chrome官方应用商店，搜索handsome
+[╭提普丶](https://www.moenis.com/) 上架到[Chrome应用平台](https://chrome.google.com/webstore/detail/handsome%E6%97%B6%E5%85%89%E6%9C%BA/dkehealpemmkhdjmhplgbloddcleaech?hl=zh-CN)，可以直接搜索「时光机」下载！
+
 
 【手动安装】
 1. 将主题包里面「crx」文件夹移动到你的计算机一个固定的位置。
