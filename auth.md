@@ -51,7 +51,7 @@ handsome用户分享社区也已上线：https://handsome.ihewro.com/user.html
 
 在「自助授权平台——管理——教程提交」的栏目里，点击「增加」按钮即可添加你的教程内容。
 
-之后，你可以在[handsome用户分享社区](https://handsome.ihewro.com/user.html) 中显示
+之后，你可以在[handsome用户分享社区](https://handsome.ihewro.com/user.html)中显示。
 
 ![](media/15686859940850.jpg)
 
