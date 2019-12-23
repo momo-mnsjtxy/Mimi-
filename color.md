@@ -29,7 +29,7 @@
 
 在外观设置——主题色调选择，可以看到主题默认内置了14种配色。
 
-如默认的dark-white-dark 分别代表：「左侧边栏和上导航栏的交集部分（logo位置）」、「上导航栏」、「上导航栏」。
+如默认的`dark-white-dark`分别代表：「左侧边栏和上导航栏的交集部分（logo位置）」、「上导航栏」、「侧导航栏」。
 
 ![](media/15755361768701.jpg)
 
@@ -42,15 +42,14 @@
 
 已有的颜色（后续考虑提供更多的配色）:
 
-* black 纯黑色
-* white 白色
-* info 蓝色
-* success  绿色
-* danger 深红色
-* dark 深色
-* light 灰白色
-* primary 紫色
-* light 灰白色
+* `black`纯黑色
+* `white`白色
+* `info`蓝色
+* `success`绿色
+* `danger`深红色
+* `dark`深色
+* `light`灰白色
+* `primary`紫色
 
 其中`dker` 表示当前颜色增强
 
@@ -70,7 +69,7 @@ white dker-white-white
 dark-light-light
 ```
 
-分别代表：「左侧边栏和上导航栏的交集部分（logo位置）」、「上导航栏」、「上导航栏」的颜色。
+分别代表：「左侧边栏和上导航栏的交集部分（`logo`位置）」、「上导航栏」、「侧导航栏」的颜色。
 
 
 
